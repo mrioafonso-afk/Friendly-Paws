@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { ShoppingCart, X, AlertCircle, CheckCircle } from 'lucide-react';
-
 const FriendlyPawsWebsite = () => {
   const [cartOpen, setCartOpen] = useState(false);
   const [cart, setCart] = useState([]);
