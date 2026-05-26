@@ -158,8 +158,9 @@ const FriendlyPawsWebsite = () => {
       {/* HEADER */}
       <header style={{ backgroundColor: 'white', borderBottom: '1px solid #E5DFD5', position: 'sticky', top: 0, zIndex: 100 }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div onClick={() => navigateTo('home')} style={{ cursor: 'pointer', fontWeight: 600, fontSize: '20px', color: '#6B9E7F', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            🐾 Friendly Paws
+          <div onClick={() => navigateTo('home')} style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}>
+  <img src=https://imgur.com/a/tcHlzn1 alt="Friendly Paws" style={{ height: '50px', width: 'auto' }} />
+</div>
           </div>
  
           <nav style={{ display: 'flex', gap: '32px', fontSize: '14px', alignItems: 'center' }}>
